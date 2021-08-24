@@ -11,9 +11,13 @@ def ladderLength(s1,s2,s3) -> int:
     else:
         alp="abcdefghijklmnopqrstuvwxyz"
         qu=deque([(s1,1)])
+        print("Q is: ",qu)
         vis=set([s1])
         while qu:
             pr,ne=qu.popleft()
+            print("pr",pr)
+            print("NE",ne)
+            print("Mod q:",qu)
             for i in range(len(pr)):
                 for j in alp:
                     s=pr[:i]+j+pr[i+1:]
@@ -23,6 +27,9 @@ def ladderLength(s1,s2,s3) -> int:
                         elif s not in vis:
                             vis.add(s)
                             qu.append((s,ne+1))
+                            print("q ->",qu)
+                            print("vist ->",vis)
+                print()
     return 0
 
 

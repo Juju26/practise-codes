@@ -39,4 +39,17 @@ pass_list.append(intern(0,pass_used))
 
 for i in range(to_interns):
     for j in range(50):
-        pass_list[i][j]=pass_list[i-1]+5000+i'''
+        pass_list[i][j]=pass_list[i-1]+5000+i
+        
+        
+        
+k=10
+pas=5000
+
+l=[0]
+for i in range(1,50):
+    l.append(l[i-1]+i)
+
+
+
+        '''
