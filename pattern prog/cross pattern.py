@@ -1,4 +1,5 @@
 '''
+zoho qn ahm
 P         M
  R      A
    O  R
@@ -7,7 +8,7 @@ P         M
  R       A
 P          M
 '''
-s='PROGRAM'
+s='cry'
 n=len(s)
 c=n-1
 for i in range(0,n):
@@ -15,7 +16,7 @@ for i in range(0,n):
         if j==c and i!=j:
             print(s[c],end='')
             c-=1
-        if i==j and i!=c:
+        elif i==j and i!=c:
             print(s[i],end='')
         elif i== c==j:
             print(s[i],end='')
