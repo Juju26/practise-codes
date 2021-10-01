@@ -1,4 +1,3 @@
-import pynput
 import random
 from pynput.keyboard import Key, Controller
 import time
