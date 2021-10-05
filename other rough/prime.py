@@ -26,7 +26,7 @@ for num in range (start,end):
             l.append(num*-1)
             
 o=l[0]+l[-1]
-print(o)'''
+print(o)
 
 n= 3 #int(input())
 l=[]
@@ -34,4 +34,15 @@ k=list(map(int,input().split()))
 for i in k:
     if int(i)%2==0: print(i,end=' ')
     else: l.append(i)
-print(' '.join(str(j) for j in l),end='')
+print(' '.join(str(j) for j in l),end='')'''
+
+i,temp=0,0
+#n = int(input("please give a number : "))
+n=20
+for j in range(2,20):   
+    for i in range(2,j):
+        if j%i == 0:
+            break
+    else:
+        print(j,end=' ')
+    

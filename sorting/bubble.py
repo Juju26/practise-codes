@@ -12,8 +12,10 @@ def gbubble(arr):
         for j in range(len(arr)-i-1):
             if arr[j]>arr[j+1]:
                 arr[j],arr[j+1]=arr[j+1],arr[j]
-    print(arr)
+    return arr
 
 arr=[23,24,2,3,1,56,32,70,0,-1,20,26,47,89]
 #bubble(arr)
-gbubble(arr)
+b=gbubble(arr)
+print(b)
+print(b[-1:-3:-1])

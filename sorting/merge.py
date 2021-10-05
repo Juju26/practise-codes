@@ -2,7 +2,7 @@ def merge_sort(lis):
    if len(lis) <= 1:
       return lis
       
-# Find the middle point and devide it
+# Find the middle point and divide it
    middle = len(lis) // 2
    left_list = lis[:middle]
    right_list = lis[middle:]
