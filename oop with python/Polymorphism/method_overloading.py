@@ -1,5 +1,5 @@
 # python does'nt support method overloading 
-# we can't have same method name twice in a class 
+# we can't have same method name twice in a class [note: it wont give error but implements the latest method defination]
 # so to implement overloading we declare variables of type none and 
 #         replace its value upon passing paramenter (line 10 : m3=none )
 
